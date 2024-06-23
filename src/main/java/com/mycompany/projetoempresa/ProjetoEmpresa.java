@@ -85,11 +85,7 @@ public class ProjetoEmpresa {
         System.out.println();
 
         System.out.println("Salários mínimos por funcionário (considerando salário mínimo de R$1212,00):");
-        BigDecimal salarioMinimo = new BigDecimal("1212.00");
-        for (Funcionario funcionario : funcionarios) {
-            BigDecimal salariosMinimos = funcionario.getSalario().divide(salarioMinimo, 2);
-            System.out.println(funcionario.getNome() + " ganha " + salariosMinimos + " salários mínimos");
-        }
+        //tive uma dificuldade em desenvolver essa etapa, dado que as funções não eram aceitas e os parametrs sempre pareciam errados.
     }
 
  }
